@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.github.xch168.stroketextview.StrokeTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#FFD700"
+        android:text="中国"
+        app:stroke_color="@android:color/holo_red_light"
+        app:stroke_width="2.5dp"/>
+
+    <com.github.xch168.stroketextview.StrokeTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="中国梦"
+        android:textStyle="bold"
+        app:stroke_color="@android:color/holo_red_light"
+        app:stroke_width="2.5dp"/>
+
+    <com.github.xch168.stroketextview.StrokeTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#333333"
+        android:text="x100"
+        android:textStyle="italic"
+        app:stroke_color="#FDB300"
+        app:stroke_width="5dp"/>
+
+    <com.github.xch168.stroketextview.StrokeTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="辉天神龙"
+        android:textStyle="bold|italic"
+        app:stroke_color="#FDB300"
+        app:stroke_width="5dp"/>
+
+</LinearLayout>
